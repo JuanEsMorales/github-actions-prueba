@@ -29,6 +29,6 @@ jobs:
       
       - name: Mostrando variables de entorno
         run: |
-          echo "Esto es el valor de platform: {{env.platform}}"
-          echo "La region: {{env.region}}"
-          echo "La cuenta: {{env.account}}"
+          echo "Esto es el valor de platform: ${{env.platform}}"
+          echo "La region: ${{env.region}}"
+          echo "La cuenta: ${{env.account}}"
